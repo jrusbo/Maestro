@@ -16,6 +16,8 @@ while True:
 	s.setTarget(0,0)
 	s.setTarget(1,0)
 	
+	time.sleep(0.4)
+	
 	# 3. Revertimos maquinas BW!!!
 	s.setTarget(0,-1)
 	s.setTarget(1,1)
